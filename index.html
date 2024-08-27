@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/scripts.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="container-menu">
+        <h1>Tarefas</h1>
+        <div class="menu-text">
+          <a id="completed">Concluídos</a>
+          <a id="bin">Lixeira</a>
+        </div>
+        <div>
+          <!-- Vazio -->
+        </div>
+      </aside>
+
+      <main class="container-main">
+        <h1>Lista de Tarefas</h1>
+        <div class="main-input">
+          <input
+            type="text"
+            name="task"
+            id="itask"
+            placeholder="Digite sua nova tarefa..."
+            autocomplete="off"
+          />
+          <button><i class="fa-solid fa-plus"></i></button>
+        </div>
+
+        <div class="main-task" id="container-task1"></div>
+
+        <div class="main-task" id="container-task2"></div>
+
+        <div class="main-task" id="container-task3"></div>
+      </main>
+    </div>
+  </body>
+</html>
